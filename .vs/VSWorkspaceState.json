@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\commponents",
+    "\\src\\commponents\\Counter",
+    "\\src\\commponents\\FootballMatches",
+    "\\src\\reducers",
+    "\\src\\service"
+  ],
+  "SelectedNode": "\\src\\reducers\\footballReducer.js",
+  "PreviewInSolutionExplorer": false
+}

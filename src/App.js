@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React, { Fragment } from "react";
+import { Provider } from "react-redux";
+import Counter from "./commponents/Counter/index";
+import FootballMathes from "./commponents/FootballMatches/index";
+import store from "./store";
+
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <Provider store={store}>
+                <Fragment>
+                    <Counter initialTime={10} />
+                    <FootballMathes />
+                </Fragment>
+            </Provider>
+        </>
+    );
 }
 
 export default App;
+
+
+
+
+

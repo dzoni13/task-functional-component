@@ -1,0 +1,9 @@
+.listElement {
+    list-style-type: none;
+    height: 35px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 430px;
+}

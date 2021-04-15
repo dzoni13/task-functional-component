@@ -1,0 +1,9 @@
+
+
+.counterContainer {
+    min-height: 300px;
+    width: 100vw;
+    height: 500px;
+    background-color: #b1b1b1;
+    text-align: center;
+}
